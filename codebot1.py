@@ -1,6 +1,7 @@
 # Importer les packages
 import streamlit as st
 st.set_page_config(page_title="Mon premier Chatbot",page_icon="robot_face")
+pip3 install nltk
 from nltk.chat.util import Chat,reflections
 
 # Définir le dialogue
